@@ -9,7 +9,7 @@ export default function FlexCard ({title, subtitle, paragraph, icon, label}) {
         <span>{subtitle}</span>
         <p>{paragraph}</p>
         {(label && icon) && (
-            <Button icon="{icon}" title="{label}"/>
+            <Button icon={icon} label={label}/>
         )}
     </div>
  )
