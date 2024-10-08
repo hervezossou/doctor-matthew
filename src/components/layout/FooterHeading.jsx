@@ -4,7 +4,7 @@ export default function FooterHeading ({infos}) {
     return (
         <div>
             <div>
-                <img src={infos.logo} alt="" />
+                <img src={infos.logo} alt="Doctor logo" />
                 <p>{infos.description}</p>
             </div>
             <div>

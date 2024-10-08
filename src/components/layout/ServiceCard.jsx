@@ -5,7 +5,7 @@ export default function ServiceCard ({image, title, description, icon, label}) {
  return (
     <div>
         <div>
-            <img src={image} />
+            <img src={image} alt={title.toLowerCase()}/>
         </div>
         <div>
             <h3>{title}</h3>
