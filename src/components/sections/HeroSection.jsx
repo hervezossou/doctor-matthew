@@ -14,7 +14,7 @@ export default function HeroSection () {
                     label={about.label}
                 />
             </div>
-            <ImageContainer image={about.image} />
+            <ImageContainer image={about.image} imageAlt={about.imageAlt} />
         </div>
     )
 }

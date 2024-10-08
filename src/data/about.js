@@ -7,7 +7,8 @@ const about = {
             "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum eget vel, nunc nulla feugiat. Metus ut.",
             "icon": messageIcon,
             "label": "Book an appointment",
-            "image": aboutProfile
+            "image": aboutProfile,
+            "imageAlt": "Dr Matthew Anderson"
 }
 
 export default about

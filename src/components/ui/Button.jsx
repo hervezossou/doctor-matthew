@@ -2,12 +2,12 @@ import PropTypes from 'prop-types'
 
 export default function Button ({icon, label}) {
     return (
-        <button>
+        <a href="#" target="_blank">
             {icon && (
                 <img src={icon} alt="" />
             )}
             <span>{label}</span>
-        </button>
+        </a>
     )
 }
 
