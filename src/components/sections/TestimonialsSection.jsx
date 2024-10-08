@@ -5,7 +5,7 @@ import { testimonials } from "../../data/testimonials";
 
 export default function TestimonialsSection () {
     return (
-        <div>
+        <div className="testimonials-section">
             <Heading title={testimonialsHeading.title} paragraph={testimonialsHeading.paragraph} />
             {testimonials.map((testimonial, index) => (
                 <TestimonialCard key={index} testimonial={testimonial.testimonial} authorName={testimonial.authorName} authorPosition={testimonial.authorPosition} authorProfile={testimonial.authorProfile} />
