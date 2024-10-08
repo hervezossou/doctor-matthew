@@ -4,7 +4,7 @@ export default function Tag ({icon, title, description}) {
     return (
         <div>
             {icon && (
-                <img src={icon} alt={icon.toLowerCase()} />
+                <img src={icon} />
             )}
             <div>
                 <h3>{title}</h3>
