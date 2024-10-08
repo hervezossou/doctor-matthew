@@ -10,8 +10,8 @@ export default function ServiceCard ({image, title, description, icon, label}) {
         <div>
             <h3>{title}</h3>
             <p>{description}</p>
-            <Button icon={icon} label={label} />
         </div>
+        <Button icon={icon} label={label} />
     </div>
  )
 }
