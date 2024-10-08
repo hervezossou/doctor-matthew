@@ -1,5 +1,6 @@
 import FlexCard from "../layout/FlexCard"
 import about from "../../data/about"
+import ImageContainer from "../layout/ImageContainer"
 
 export default function HeroSection () {
     return (
@@ -13,9 +14,7 @@ export default function HeroSection () {
                     label={about.label}
                 />
             </div>
-            <div>
-                <img src={about.image} alt=""/>
-            </div>
+            <ImageContainer image={about.image} />
         </div>
     )
 }
