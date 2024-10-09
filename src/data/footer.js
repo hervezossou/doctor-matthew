@@ -23,7 +23,7 @@ export const footerLinks = [
     {
         "title": "Book Now",
         "items": {
-            "link": "Appointment"
+            "appointment": "Appointment"
         }
     },
     {
