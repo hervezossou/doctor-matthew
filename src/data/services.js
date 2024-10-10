@@ -10,7 +10,7 @@ import orthopedics from '../assets/images/orthopedics.png'
 export const servicesHeader = {
     "title": "Services",
     "subtitle": "Experienced in multiple medical practices",
-    "paragraph": "orem ipsum dolor sit amet, consectetur adipiscing elit. Egestas egestas viverra turpis habitant eu sociis fermentum felis.",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas egestas viverra turpis habitant eu sociis fermentum felis.",
     "icon": whatsappIcon,
     "label": "Book an appointment",
     "image": servicesImage,
