@@ -6,8 +6,8 @@ import Tag from "../ui/Tag"
 
 export default function HeroSection () {
     return (
-        <div className="hero-section">
-            <div className="hero-introduction">
+        <div className="flex flex-col gap-10 my-10">
+            <div className="flex flex-col gap-4">
                 <ImageContainer image={hero.image} imageAlt={hero.imageAlt} />
                 <FlexCard 
                     title={hero.title} 
@@ -17,7 +17,7 @@ export default function HeroSection () {
                     label={hero.label}
                 />
             </div>
-            <div>
+            <div className="flex flex-col gap-4">
                 {tagList.map((tag, index) => (
                     <Tag key={index} icon={tag.icon} title={tag.title} description={tag.description}/>
                 ))}
