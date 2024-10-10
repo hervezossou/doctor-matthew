@@ -1,4 +1,4 @@
-import heroProfile from '../assets/images/hero-profile.jpg'
+import heroProfile from '../assets/images/hero-profile.png'
 import messageIcon from '../assets/icons/message-icon.png'
 import clockIcon from '../assets/icons/clock.png'
 import checkIcon from '../assets/icons/check-circle.png'
