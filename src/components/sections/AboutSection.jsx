@@ -4,7 +4,7 @@ import { about } from "../../data/about"
 
 export default function AboutSection () {
     return (
-        <div className="about-section">
+        <div className="flex flex-col gap-10 my-10">
             <FlexCard 
                     title={about.title} 
                     subtitle={about.subtitle} 
