@@ -8,6 +8,7 @@ export default function HeroSection () {
     return (
         <div className="hero-section">
             <div className="hero-introduction">
+                <ImageContainer image={hero.image} imageAlt={hero.imageAlt} />
                 <FlexCard 
                     title={hero.title} 
                     subtitle={hero.subtitle} 
@@ -15,7 +16,6 @@ export default function HeroSection () {
                     icon={hero.icon}
                     label={hero.label}
                 />
-                <ImageContainer image={hero.image} imageAlt={hero.imageAlt} />
             </div>
             <div>
                 {tagList.map((tag, index) => (

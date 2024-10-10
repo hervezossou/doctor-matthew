@@ -17,6 +17,13 @@ export default {
         "pure-white": "#FFFFFF",
         "alice-blue": "#F2F7FF",
         "ship-cove": "#6C87AE"
+      },
+      fontFamily: {
+        "sans": "Sora",
+        "body": "Poppins"
+      },
+      dropShadow: {
+        "3xl": "0px 8px 23px rgba(65, 132, 247, 0.24)"
       }
     },
   },
