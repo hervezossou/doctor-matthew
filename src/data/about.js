@@ -1,5 +1,5 @@
 import whatsappIcon from '../assets/icons/whatsapp.png'
-import aboutPhoto from '../assets/images/about-photo.jpg'
+import aboutPhoto from '../assets/images/about-photo.png'
 
 export const about = {
     "image": aboutPhoto,
