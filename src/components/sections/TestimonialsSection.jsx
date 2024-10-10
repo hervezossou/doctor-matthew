@@ -5,11 +5,13 @@ import { testimonials } from "../../data/testimonials";
 
 export default function TestimonialsSection () {
     return (
-        <div className="testimonials-section">
+        <div className="flex flex-col bg-alice-blue gap-10 my-12 p-6">
             <Heading title={testimonialsHeading.title} paragraph={testimonialsHeading.paragraph} />
-            {testimonials.map((testimonial, index) => (
-                <TestimonialCard key={index} testimonial={testimonial.testimonial} authorName={testimonial.authorName} authorPosition={testimonial.authorPosition} authorProfile={testimonial.authorProfile} />
-            ))}
+            <div className="flex flex-col items-center justify-center gap-4">
+                {testimonials.map((testimonial, index) => (
+                    <TestimonialCard key={index} testimonial={testimonial.testimonial} authorName={testimonial.authorName} authorPosition={testimonial.authorPosition} authorProfile={testimonial.authorProfile} />
+                ))}
+            </div>
         </div>
     )
 }
