@@ -4,6 +4,7 @@ import AboutSection from './components/sections/AboutSection'
 import ServicesSection from './components/sections/ServicesSection'
 import AppointmentSection from './components/sections/Appointment'
 import TestimonialsSection from './components/sections/TestimonialsSection'
+import VideoSection from './components/sections/VideoSection'
 import Footer from './components/sections/Footer'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ServicesSection />
         <AppointmentSection />
         <TestimonialsSection />
+        <VideoSection />
       </main>
       <Footer />
     </>
