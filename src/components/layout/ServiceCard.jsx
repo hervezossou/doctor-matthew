@@ -3,13 +3,13 @@ import Button from '../ui/Button'
 
 export default function ServiceCard ({image, title, description, icon, label}) {
  return (
-    <div>
-        <div>
+    <div className='flex flex-col items-center justify-center gap-6 bg-pure-white p-8 rounded-3xl drop-shadow-4xl'>
+        <div className='flex items-center justify-center'>
             <img src={image} alt={title.toLowerCase()}/>
         </div>
-        <div>
-            <h3>{title}</h3>
-            <p>{description}</p>
+        <div className='flex flex-col items-start justify-center gap-3'>
+            <h3 className='font-medium font-body text-black text-base'>{title}</h3>
+            <p className='font-sans text-paragraph text-xs text-justify'>{description}</p>
         </div>
         <Button icon={icon} label={label} />
     </div>

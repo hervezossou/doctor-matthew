@@ -6,8 +6,8 @@ import { services } from "../../data/services"
 
 export default function ServicesSection () {
     return (
-        <div className="services-section">
-            <div className="top-section">
+        <div className="bg-alice-blue flex flex-col">
+            <div className="flex flex-col gap-10 my-10">
                 <FlexCard 
                     title={servicesHeader.title} 
                     subtitle={servicesHeader.subtitle} 
@@ -17,7 +17,7 @@ export default function ServicesSection () {
                 />
                 <ImageContainer image={servicesHeader.image} imageAlt={servicesHeader.imageAlt} />
             </div>
-            <div className="services">
+            <div className="flex flex-wrap items-center justify-center gap-9">
                 {
                     services.map((service, index) => (
                         <ServiceCard 
