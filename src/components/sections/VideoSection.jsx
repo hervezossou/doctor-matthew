@@ -5,9 +5,9 @@ import Tag from "../ui/Tag"
 
 export default function VideoSection () {
     return (
-        <div className="bg-alice-blue flex flex-col items-center gap-10 my-10 p-6">
+        <div className="bg-pure-white flex flex-col items-center gap-10 my-10 p-6">
             <h4 className="font-body font-medium text-title text-base text-center">{video.title}</h4>
-            <div className="flex items-center justify-center bg-pure-white w-80 h-72 rounded-xl">
+            <div className="flex items-center justify-center bg-alice-blue w-80 h-72 rounded-xl">
                 <div className="flex items-center justify-center gap-3 bg-gradient-to-r from-pure-blue to-light-blue w-24 h-24 rounded-full">
                     <img src={video.play}/>
                 </div>

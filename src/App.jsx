@@ -15,8 +15,8 @@ function App() {
         <AboutSection />
         <ServicesSection />
         <AppointmentSection />
-        <TestimonialsSection />
         <VideoSection />
+        <TestimonialsSection />
       </main>
       <Footer />
     </>

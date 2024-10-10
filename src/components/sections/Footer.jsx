@@ -5,7 +5,7 @@ import FooterLinks from "../layout/FooterLinks"
 
 export default function Footer () {
     return (
-        <footer className="flex flex-col bg-pure-blue gap-10 my-10 p-6">
+        <footer className="flex flex-col bg-pure-blue gap-10 p-6">
             <div className="flex flex-col">
                 <FooterHeading infos={footerHeading} />
                 <div className="flex flex-col items-center justify-center gap-4">

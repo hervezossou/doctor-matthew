@@ -5,7 +5,7 @@ import { testimonials } from "../../data/testimonials";
 
 export default function TestimonialsSection () {
     return (
-        <div className="flex flex-col bg-alice-blue gap-10 my-12 p-6">
+        <div className="flex flex-col bg-alice-blue gap-10 px-6 py-12">
             <Heading title={testimonialsHeading.title} paragraph={testimonialsHeading.paragraph} />
             <div className="flex flex-col items-center justify-center gap-4">
                 {testimonials.map((testimonial, index) => (
