@@ -2,11 +2,11 @@ import PropTypes from 'prop-types'
 
 export default function Button ({icon, label}) {
     return (
-        <a className="bg-gradient-to-r from-primary-blue to-primary-violet drop-shadow-3xl w-64 h-10 flex items-center justify-center gap-2.5 rounded-3xl px-7 py-4" href="#" target="_blank">
+        <a className="flex h-10 w-64 items-center justify-center gap-2.5 rounded-3xl bg-gradient-to-r from-primary-blue to-primary-violet px-7 py-4 drop-shadow-3xl" href="#" target="_blank">
             {icon && (
                 <img src={icon} alt="" />
             )}
-            <span className='font-sans font-semibold text-sm text-pure-white'>{label}</span>
+            <span className='font-sans text-sm font-semibold text-pure-white'>{label}</span>
         </a>
     )
 }

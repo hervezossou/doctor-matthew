@@ -6,7 +6,7 @@ import Tag from "../ui/Tag"
 
 export default function HeroSection () {
     return (
-        <div className="bg-alice-blue flex flex-col gap-10 p-6">
+        <div className="flex flex-col gap-10 bg-alice-blue p-6">
             <div className="flex flex-col gap-4">
                 <ImageContainer image={hero.image} imageAlt={hero.imageAlt} />
                 <FlexCard 
