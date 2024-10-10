@@ -8,7 +8,7 @@ export default function Tag ({icon, title, description}) {
             )}
             <div className='flex flex-col'>
                 <h3 className='font-semibold font-body text-pure-white text-sm'>{title}</h3>
-                <p className='font-sans text-xs text-pure-white w-48 h-5'>{description}</p>
+                <p className='font-sans font-normal text-xs text-pure-white w-48 h-5'>{description}</p>
             </div>
         </div>
     )

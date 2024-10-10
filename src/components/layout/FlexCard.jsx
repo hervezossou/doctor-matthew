@@ -5,9 +5,9 @@ export default function FlexCard ({title, subtitle, paragraph, icon, label}) {
  return (
 
     <div className="flex flex-col items-center justify-between gap-5">
-        <h2 className='font-medium text-title text-base text-center font-body'>{title}</h2>
-        <span className='font-bold text-2xl text-subtitle text-center leading-tight'>{subtitle}</span>
-        <p className='font-sans text-paragraph text-sm text-center'>{paragraph}</p>
+        <h2 className='font-body font-medium text-title text-base text-center'>{title}</h2>
+        <span className='font-body font-bold text-2xl text-subtitle text-center leading-tight'>{subtitle}</span>
+        <p className='font-sans font-normal text-paragraph text-sm text-center'>{paragraph}</p>
         {(label && icon) && (
             <Button icon={icon} label={label}/>
         )}
