@@ -6,7 +6,7 @@ import { services } from "../../data/services"
 
 export default function ServicesSection () {
     return (
-        <div className="bg-alice-blue flex flex-col">
+        <div className="bg-alice-blue flex flex-col p-6">
             <div className="flex flex-col gap-10 my-10">
                 <FlexCard 
                     title={servicesHeader.title} 
