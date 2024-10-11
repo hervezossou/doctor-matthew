@@ -17,7 +17,7 @@ export default function HeroSection () {
                     label={hero.label}
                 />
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap">
+            <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:gap-6">
                 {tagList.map((tag, index) => (
                     <Tag key={index} icon={tag.icon} title={tag.title} description={tag.description}/>
                 ))}
