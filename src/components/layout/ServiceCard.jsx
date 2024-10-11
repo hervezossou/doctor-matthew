@@ -11,7 +11,7 @@ export default function ServiceCard ({image, title, description, icon, label}) {
             <h3 className='font-body text-base font-medium text-black md:text-lg lg:text-xl xl:text-2xl'>{title}</h3>
             <p className='text-justify font-sans text-xs text-paragraph md:text-sm lg:text-base xl:text-lg'>{description}</p>
         </div>
-        <Button icon={icon} label={label} />
+        <Button icon={icon} label={label} variant='primary' />
     </div>
  )
 }

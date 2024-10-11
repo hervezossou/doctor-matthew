@@ -9,7 +9,7 @@ export default function FlexCard ({title, subtitle, paragraph, icon, label}) {
         <span className='text-center font-body text-2xl font-bold leading-tight text-subtitle md:text-left md:text-3xl lg:text-4xl xl:text-5xl'>{subtitle}</span>
         <p className='text-center font-sans text-sm font-normal text-paragraph md:text-justify lg:text-base xl:text-lg'>{paragraph}</p>
         {(label && icon) && (
-            <Button icon={icon} label={label}/>
+            <Button icon={icon} label={label} variant='primary'/>
         )}
     </div>
  )

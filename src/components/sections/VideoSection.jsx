@@ -12,7 +12,7 @@ export default function VideoSection () {
                     <img src={video.play}/>
                 </div>
             </div>
-            <Heading title={video.subtitle} paragraph={video.paragraph} />
+            <Heading title={video.subtitle} paragraph={video.paragraph} variant="primary" />
             <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap">
                 {videoTag.map((tag, index) => (
                     <Tag key={index} icon={tag.icon} title={tag.title} description={tag.description}/>
