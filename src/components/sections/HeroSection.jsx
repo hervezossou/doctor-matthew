@@ -18,7 +18,7 @@ export default function HeroSection () {
                     variant='primary'
                 />
             </div>
-            <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:gap-6 xl:absolute xl:inset-x-48 xl:bottom-48">
+            <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:gap-6 xl:absolute xl:inset-x-48 xl:bottom-4">
                 {tagList.map((tag, index) => (
                     <Tag key={index} icon={tag.icon} title={tag.title} description={tag.description}/>
                 ))}
