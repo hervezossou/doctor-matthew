@@ -25,6 +25,13 @@ export default {
       dropShadow: {
         "3xl": "0px 8px 23px rgba(65, 132, 247, 0.24)",
         "4xl": "0px 24px 32px -3px rgba(3, 9, 50, 0.04)"
+      },
+      backgroundImage: {
+        "player": "url('./src/assets/images/player.png')"
+      },
+      spacing: {
+        "567": "35.4375rem",
+        "283": "17.71875rem"
       }
     },
   },
