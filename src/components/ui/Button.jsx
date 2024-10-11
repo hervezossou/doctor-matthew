@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 export default function Button ({icon, label, variant = "primary"}) {
     const classes = {
         "primary": "bg-gradient-to-r from-primary-blue to-primary-violet text-pure-white",
-        "secondary": "bg-pure-white text-primary-blue"
+        "secondary": "bg-pure-white text-primary-blue mb-4"
     }
 
     return (
