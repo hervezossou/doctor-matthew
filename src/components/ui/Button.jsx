@@ -6,7 +6,7 @@ export default function Button ({icon, label}) {
             {icon && (
                 <img src={icon} alt="" />
             )}
-            <span className='font-sans text-sm font-semibold text-pure-white md:text-base lg:text-lg'>{label}</span>
+            <span className='font-sans text-xs font-semibold text-pure-white md:text-base lg:text-lg'>{label}</span>
         </a>
     )
 }
