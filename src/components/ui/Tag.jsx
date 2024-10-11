@@ -2,7 +2,8 @@ import PropTypes from 'prop-types'
 
 export default function Tag ({icon, title, description}) {
     return (
-        <div className='flex h-16 w-64 items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-pure-blue to-light-blue px-5 py-2'>
+        // eslint-disable-next-line tailwindcss/no-custom-classname
+        <div className='md:w-p6 h-18 flex w-80 items-center justify-center gap-4 rounded-xl bg-gradient-to-r from-pure-blue to-light-blue px-5 py-2'>
             {icon && (
                 <img src={icon} />
             )}
