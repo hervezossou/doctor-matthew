@@ -17,7 +17,7 @@ export default function ServicesSection () {
                 />
                 <ImageContainer image={servicesHeader.image} imageAlt={servicesHeader.imageAlt} />
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-9 md:p-4 lg:justify-between lg:gap-16 lg:px-24 lg:pb-32">
+            <div className="flex flex-wrap items-center justify-center gap-9 md:p-4 lg:justify-between lg:gap-4 lg:px-24 lg:pb-32">
                 {
                     services.map((service, index) => (
                         <ServiceCard 
