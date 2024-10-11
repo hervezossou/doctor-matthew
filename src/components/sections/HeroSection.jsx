@@ -15,6 +15,7 @@ export default function HeroSection () {
                     paragraph={hero.paragraph} 
                     icon={hero.icon}
                     label={hero.label}
+                    variant='primary'
                 />
             </div>
             <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:gap-6">

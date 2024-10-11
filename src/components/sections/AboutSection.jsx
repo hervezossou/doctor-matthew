@@ -11,6 +11,7 @@ export default function AboutSection () {
                     paragraph={about.paragraph} 
                     icon={about.icon}
                     label={about.label}
+                    variant="secondary"
             />
             <ImageContainer image={about.image} imageAlt={about.imageAlt} />
         </div>

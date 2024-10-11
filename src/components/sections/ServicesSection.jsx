@@ -14,6 +14,7 @@ export default function ServicesSection () {
                     paragraph={servicesHeader.paragraph} 
                     icon={servicesHeader.icon}
                     label={servicesHeader.label}
+                    variant="secondary"
                 />
                 <ImageContainer image={servicesHeader.image} imageAlt={servicesHeader.imageAlt} />
             </div>
