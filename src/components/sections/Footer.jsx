@@ -6,7 +6,7 @@ import FooterLinks from "../layout/FooterLinks"
 export default function Footer () {
     return (
         <footer className="flex flex-col gap-10 bg-pure-blue p-6">
-            <div className="flex flex-col md:p-16 lg:flex-row lg:items-start lg:justify-between lg:px-24 xl:gap-32">
+            <div className="flex flex-col md:p-16 lg:flex-row lg:items-start lg:justify-between lg:px-24 xl:gap-32 xl:px-40">
                 <FooterHeading infos={footerHeading} />
                 <div className="flex flex-col items-center justify-between gap-4 lg:flex-row lg:flex-wrap lg:items-start lg:gap-16">
                     {footerLinks.map((list) => (
