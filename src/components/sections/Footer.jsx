@@ -5,18 +5,18 @@ import FooterLinks from "../layout/FooterLinks"
 
 export default function Footer () {
     return (
-        <footer className="flex flex-col bg-pure-blue gap-10 p-6">
-            <div className="flex flex-col">
+        <footer className="flex flex-col gap-10 bg-pure-blue p-6">
+            <div className="flex flex-col md:p-16 lg:flex-row lg:items-center lg:justify-between lg:gap-32 lg:px-24">
                 <FooterHeading infos={footerHeading} />
-                <div className="flex flex-col items-center justify-center gap-4">
+                <div className="flex flex-col items-center justify-center gap-4 lg:flex-row lg:items-start lg:gap-16">
                     {footerLinks.map((list) => (
                         <FooterLinks key={list.title} list={list}  />
                     ))}
                 </div>
             </div>
             <div className="flex flex-col justify-center">
-                <hr className="separator-line"></hr>
-                <p className="font-sans text-sm text-center text-pure-white mt-6">© Doctor all rights 2023 - Designed by remmcal</p>
+                <hr className="flex items-center justify-center md:mx-16 lg:mx-24"></hr>
+                <p className="mt-6 text-center font-sans text-sm text-pure-white lg:text-base xl:text-lg">© Doctor all rights 2023 - Designed by remmcal</p>
             </div>
         </footer>
     )
