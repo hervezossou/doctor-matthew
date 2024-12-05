@@ -9,7 +9,7 @@ import Footer from './components/sections/Footer'
 
 function App() {
   return (
-    <>
+    <div className='max-w-screen-2xl'>
       <Header />
       <main>
         <HeroSection />
@@ -20,7 +20,7 @@ function App() {
         <TestimonialsSection />
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
