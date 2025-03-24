@@ -1,7 +1,7 @@
-import { video } from "../../data/video"
-import { videoTag } from "../../data/video"
-import Heading from "../layout/Heading"
-import Tag from "../ui/Tag"
+import { video } from "../../lib/video"
+import { videoTag } from "../../lib/video"
+import Heading from "../molecules/Heading"
+import Tag from "../atoms/Tag"
 
 export default function VideoSection () {
     return (

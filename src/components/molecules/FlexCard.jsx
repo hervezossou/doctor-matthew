@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Button from '../ui/Button'
+import Button from '../atoms/Button'
 
 export default function FlexCard ({title, subtitle, paragraph, icon, label, variant}) {
     const variants = {

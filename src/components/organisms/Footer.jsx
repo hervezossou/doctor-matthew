@@ -1,7 +1,7 @@
-import { footerHeading } from "../../data/footer"
-import FooterHeading from "../layout/FooterHeading"
-import { footerLinks } from "../../data/footer"
-import FooterLinks from "../layout/FooterLinks"
+import { footerHeading } from "../../lib/footer"
+import FooterHeading from "../molecules/FooterHeading"
+import { footerLinks } from "../../lib/footer"
+import FooterLinks from "../molecules/FooterLinks"
 
 export default function Footer () {
     return (

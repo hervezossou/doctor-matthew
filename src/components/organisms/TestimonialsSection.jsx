@@ -1,7 +1,7 @@
-import Heading from "../layout/Heading";
-import TestimonialCard from "../layout/TestimonialCard";
-import { testimonialsHeading } from "../../data/testimonials";
-import { testimonials } from "../../data/testimonials";
+import Heading from "../molecules/Heading";
+import TestimonialCard from "../molecules/TestimonialCard";
+import { testimonialsHeading } from "../../lib/testimonials";
+import { testimonials } from "../../lib/testimonials";
 
 export default function TestimonialsSection () {
     return (

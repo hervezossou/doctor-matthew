@@ -1,8 +1,8 @@
-import FlexCard from "../layout/FlexCard"
-import ImageContainer from "../layout/ImageContainer"
-import ServiceCard from "../layout/ServiceCard"
-import { servicesHeader } from "../../data/services"
-import { services } from "../../data/services"
+import FlexCard from "../molecules/FlexCard"
+import ImageContainer from "../molecules/ImageContainer"
+import ServiceCard from "../molecules/ServiceCard"
+import { servicesHeader } from "../../lib/services"
+import { services } from "../../lib/services"
 
 export default function ServicesSection () {
     return (

@@ -1,8 +1,8 @@
-import FlexCard from "../layout/FlexCard"
-import { hero } from "../../data/hero"
-import { tagList } from "../../data/hero"
-import ImageContainer from "../layout/ImageContainer"
-import Tag from "../ui/Tag"
+import FlexCard from "../molecules/FlexCard"
+import { hero } from "../../lib/hero"
+import { tagList } from "../../lib/hero"
+import ImageContainer from "../molecules/ImageContainer"
+import Tag from "../atoms/Tag"
 
 export default function HeroSection () {
     return (

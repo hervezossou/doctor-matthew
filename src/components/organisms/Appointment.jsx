@@ -1,6 +1,6 @@
-import Heading from "../layout/Heading"
-import Button from "../ui/Button"
-import { appointment } from "../../data/appointment"
+import Heading from "../molecules/Heading"
+import Button from "../atoms/Button"
+import { appointment } from "../../lib/appointment"
 
 export default function AppointmentSection () {
     return (

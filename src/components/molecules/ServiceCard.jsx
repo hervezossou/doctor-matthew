@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Button from '../ui/Button'
+import Button from '../atoms/Button'
 
 export default function ServiceCard ({image, title, description, icon, label}) {
  return (

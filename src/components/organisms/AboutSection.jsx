@@ -1,6 +1,6 @@
-import FlexCard from "../layout/FlexCard"
-import ImageContainer from "../layout/ImageContainer"
-import { about } from "../../data/about"
+import FlexCard from "../molecules/FlexCard"
+import ImageContainer from "../molecules/ImageContainer"
+import { about } from "../../lib/about"
 
 export default function AboutSection () {
     return (
