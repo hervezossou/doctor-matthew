@@ -9,14 +9,16 @@ import Footer from './components/organisms/Footer'
 
 function App() {
   return (
-    <div className='mx-auto max-w-screen-2xl'>
+    <div className="mx-auto max-w-screen-2xl bg-alice-blue">
       <Header />
       <main>
         <HeroSection />
         <AboutSection />
         <ServicesSection />
-        <AppointmentSection />
-        <VideoSection />
+        <section className="bg-pure-white">
+          <AppointmentSection />
+          <VideoSection />
+        </section>
         <TestimonialsSection />
       </main>
       <Footer />
