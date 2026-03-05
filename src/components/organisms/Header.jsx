@@ -2,75 +2,102 @@ import NavLink from "../atoms/NavLink";
 import Button from "../atoms/Button";
 import { useState } from "react";
 
-export default function Header () {
-    const  [isOpen, setIsOpen] = useState(false);
+export default function Header() {
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <header className="sticky top-0 z-50 bg-transparent backdrop-blur-3xl lg:border-b-2 lg:px-16 lg:py-2 xl:px-[180px] xl:py-4">
             <div className="hidden lg:flex lg:items-center lg:justify-between lg:gap-40">
                 <div className="hidden h-[49px] max-w-4xl lg:flex lg:items-center lg:justify-center lg:gap-0">
-                    <a href="/" className="flex items-center justify-center pb-6">
+                    <a
+                        href="/"
+                        className="flex items-center justify-center pb-6"
+                    >
                         <img src="/logo.svg" alt="brand logo" />
                     </a>
                     <nav className="flex items-center justify-between py-4">
                         <div className="hidden lg:flex lg:items-center lg:justify-between">
-                            <NavLink href="/" className="hover:text-primary-blue">Home</NavLink>
-                            <NavLink href="#about" className="hover:text-primary-blue">About</NavLink>
-                            <NavLink href="#services" className="hover:text-primary-blue">Services</NavLink>
-                            <NavLink href="#contact" className="hover:text-primary-blue">Contact</NavLink>
+                            <NavLink
+                                href="/"
+                                className="hover:text-primary-blue"
+                            >
+                                Home
+                            </NavLink>
+                            <NavLink
+                                href="#about"
+                                className="hover:text-primary-blue"
+                            >
+                                About
+                            </NavLink>
+                            <NavLink
+                                href="#services"
+                                className="hover:text-primary-blue"
+                            >
+                                Services
+                            </NavLink>
+                            <NavLink
+                                href="#contact"
+                                className="hover:text-primary-blue"
+                            >
+                                Contact
+                            </NavLink>
                         </div>
                     </nav>
                 </div>
-                <Button 
-                    icon="/icons/message-icon.png" 
-                    label="Book Now" 
+                <Button
+                    icon="/icons/message-icon.png"
+                    label="Book Now"
                     variant="primary"
                 />
             </div>
             <div className="z-50 flex flex-col items-center justify-between lg:hidden">
                 <div className="sticky top-0 z-50 flex w-full items-center justify-between border-b-2 bg-alice-blue px-5 md:px-12">
-                    <a href="/" className="flex items-center justify-center pb-6">
+                    <a
+                        href="/"
+                        className="flex items-center justify-center pb-6"
+                    >
                         <img src="/logo.svg" alt="brand logo" />
                     </a>
-                    <div 
+                    <div
                         className="flex items-center justify-center rounded-xl bg-alice-blue p-2 drop-shadow transition-all duration-300 hover:size-auto hover:cursor-pointer hover:bg-blue-300"
                         onClick={() => setIsOpen(!isOpen)}
                     >
-                        {isOpen ? 
-                            <img 
-                                src="/icons/close-menu.svg" 
+                        {isOpen ? (
+                            <img
+                                src="/icons/close-menu.svg"
                                 alt="close menu icon"
-                            /> : 
-                            <img 
-                                src="/icons/open-menu.svg" 
-                                alt="open menu icon" 
                             />
-                        }
+                        ) : (
+                            <img
+                                src="/icons/open-menu.svg"
+                                alt="open menu icon"
+                            />
+                        )}
                     </div>
                 </div>
                 {isOpen && (
                     <div className="w-full bg-alice-blue p-10 drop-shadow-md">
                         <nav className="flex flex-col items-start justify-between gap-4">
-                            <a 
-                                href="/" 
+                            <a
+                                href="/"
                                 className="h-auto w-full rounded-md bg-gray-200/70 px-8 py-2 text-base text-black hover:bg-blue-100 hover:text-pure-blue"
                             >
                                 Home
                             </a>
-                            <a 
-                                href="#about" 
+                            <a
+                                href="#about"
                                 className="h-auto w-full rounded-md bg-gray-200/70 px-8 py-2 text-base text-black hover:bg-blue-100 hover:text-pure-blue"
                             >
                                 About
                             </a>
-                            <a 
-                                href="#services" 
+                            <a
+                                href="#services"
                                 className="h-auto w-full rounded-md bg-gray-200/70 px-8 py-2 text-base text-black hover:bg-blue-100 hover:text-pure-blue"
                             >
                                 Services
                             </a>
-                            <a 
-                                href="#contact" 
+                            <a
+                                href="#contact"
                                 className="h-auto w-full rounded-md bg-gray-200/70 px-8 py-2 text-base text-black hover:bg-blue-100 hover:text-pure-blue"
                             >
                                 Contact
@@ -80,5 +107,5 @@ export default function Header () {
                 )}
             </div>
         </header>
-    )
-} 
+    );
+}
