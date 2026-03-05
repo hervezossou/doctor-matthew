@@ -14,7 +14,7 @@ export default function Button({
 
     return (
         <a
-            className={`flex h-12 w-max items-center justify-center gap-2.5 rounded-3xl px-7 py-4 drop-shadow-3xl ${classes[variant]} ${className} md:my-3`}
+            className={`flex h-12 w-full items-center justify-center gap-2.5 rounded-3xl px-7 py-4 drop-shadow-3xl ${classes[variant]} ${className} md:my-3 md:w-max`}
             href="#"
             target="_blank"
         >

@@ -14,8 +14,8 @@ export default function FlexCard({
         secondary: "text-xl md:text-2xl xl:text-3xl",
     };
     return (
-        <div className="flex h-max flex-col items-center gap-5 md:w-485 md:items-start md:gap-3 xl:w-567">
-            <h2 className="text-center font-body text-base font-medium text-title md:text-left lg:text-2xl">
+        <div className="flex h-max flex-col items-start gap-5 md:w-485 md:items-start md:gap-3 xl:w-567">
+            <h2 className="font-body text-base font-medium text-title lg:text-2xl">
                 {title}
             </h2>
             <span
