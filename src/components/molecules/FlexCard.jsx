@@ -19,11 +19,11 @@ export default function FlexCard({
                 {title}
             </h2>
             <span
-                className={`text-center font-body font-bold ${variants[variant]} leading-tight text-subtitle md:text-left`}
+                className={`font-body font-bold ${variants[variant]} leading-tight text-subtitle md:text-left`}
             >
                 {subtitle}
             </span>
-            <p className="text-center font-sans text-sm font-normal text-paragraph md:text-justify md:text-base xl:text-lg">
+            <p className="font-sans text-sm font-normal text-paragraph md:text-base xl:text-lg">
                 {paragraph}
             </p>
             {label && icon && (
